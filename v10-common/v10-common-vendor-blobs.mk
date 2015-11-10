@@ -47,396 +47,17 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/lge/v10-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
     vendor/lge/v10-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/lge/v10-common/proprietary/lib/libxtwifi_ulp_adaptor.so:system/lib/libxtwifi_ulp_adaptor.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_cpp_module.so:system/lib/libmmcamera2_cpp_module.so \
-    vendor/lge/v10-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_ov8825_camera.so:system/lib/libactuator_ov8825_camera.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_preview.so:system/lib/libchromatix_imx234_preview.so \
-    vendor/lge/v10-common/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_clf44.so:system/lib/libmmcamera_isp_clf44.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_dw9761b_camera.so:system/lib/libactuator_dw9761b_camera.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_liveshot.so:system/lib/libchromatix_ov5670w_liveshot.so \
-    vendor/lge/v10-common/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_cpp_preview.so:system/lib/libchromatix_imx208_cpp_preview.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_imx234_eeprom.so:system/lib/libmmcamera_imx234_eeprom.so \
-    vendor/lge/v10-common/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/lge/v10-common/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_rohm_bu64243gwz_camcorder.so:system/lib/libactuator_rohm_bu64243gwz_camcorder.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_lc898212xd.so:system/lib/libactuator_lc898212xd.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_snapshot.so:system/lib/libchromatix_imx234_cpp_snapshot.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_snapshot_panorama.so:system/lib/libchromatix_imx234_snapshot_panorama.so \
-    vendor/lge/v10-common/proprietary/lib/libextendedmediaextractor.so:system/lib/libextendedmediaextractor.so \
-    vendor/lge/v10-common/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_color_correct40.so:system/lib/libmmcamera_isp_color_correct40.so \
-    vendor/lge/v10-common/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imss.so:system/lib/lib-imss.so \
-    vendor/lge/v10-common/proprietary/lib/libadsprpc.so:system/lib/libadsprpc.so \
-    vendor/lge/v10-common/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_common.so:system/lib/libchromatix_ov5670_common.so \
-    vendor/lge/v10-common/proprietary/lib/libxtwifi_zpp_adaptor.so:system/lib/libxtwifi_zpp_adaptor.so \
-    vendor/lge/v10-common/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
-    vendor/lge/v10-common/proprietary/lib/librpmb.so:system/lib/librpmb.so \
-    vendor/lge/v10-common/proprietary/lib/libcne.so:system/lib/libcne.so \
-    vendor/lge/v10-common/proprietary/lib/libqdp.so:system/lib/libqdp.so \
-    vendor/lge/v10-common/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/lge/v10-common/proprietary/lib/libizat_core.so:system/lib/libizat_core.so \
-    vendor/lge/v10-common/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_mce40.so:system/lib/libmmcamera_isp_mce40.so \
-    vendor/lge/v10-common/proprietary/lib/libfastcvopt.so:system/lib/libfastcvopt.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_common_video.so:system/lib/libchromatix_imx234_common_video.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_vt.so:system/lib/libchromatix_ov5670w_vt.so \
-    vendor/lge/v10-common/proprietary/lib/libextendedremotedisplay.so:system/lib/libextendedremotedisplay.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_rohm_bu64243gwz_camera.so:system/lib/libactuator_rohm_bu64243gwz_camera.so \
-    vendor/lge/v10-common/proprietary/lib/lib-rcsimssjni.so:system/lib/lib-rcsimssjni.so \
-    vendor/lge/v10-common/proprietary/lib/libvcel.so:system/lib/libvcel.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_snapshot_hdr.so:system/lib/libchromatix_imx234_snapshot_hdr.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_bpc44.so:system/lib/libmmcamera_isp_bpc44.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_cpp_video.so:system/lib/libchromatix_ov5670_cpp_video.so \
-    vendor/lge/v10-common/proprietary/lib/libdrc.so:system/lib/libdrc.so \
-    vendor/lge/v10-common/proprietary/lib/libqmi_encdec.so:system/lib/libqmi_encdec.so \
-    vendor/lge/v10-common/proprietary/lib/libjpegehw.so:system/lib/libjpegehw.so \
-    vendor/lge/v10-common/proprietary/lib/libllvm-glnext.so:system/lib/libllvm-glnext.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_flash_snapshot.so:system/lib/libchromatix_imx234_cpp_flash_snapshot.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_ad5823_camera.so:system/lib/libactuator_ad5823_camera.so \
-    vendor/lge/v10-common/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_snapshot.so:system/lib/libchromatix_ov5670w_snapshot.so \
-    vendor/lge/v10-common/proprietary/lib/libfastcvadsp_stub.so:system/lib/libfastcvadsp_stub.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_lc898122_claf_camcorder.so:system/lib/libactuator_lc898122_claf_camcorder.so \
     vendor/lge/v10-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_eeprom_util.so:system/lib/libmmcamera_eeprom_util.so \
-    vendor/lge/v10-common/proprietary/lib/libmmiipstreammmihttp.so:system/lib/libmmiipstreammmihttp.so \
-    vendor/lge/v10-common/proprietary/lib/libmmqjpegdma.so:system/lib/libmmqjpegdma.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_sub_module.so:system/lib/libmmcamera_isp_sub_module.so \
-    vendor/lge/v10-common/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_cs_stats44.so:system/lib/libmmcamera_isp_cs_stats44.so \
-    vendor/lge/v10-common/proprietary/lib/libscveTextRecoPostProcessing.so:system/lib/libscveTextRecoPostProcessing.so \
-    vendor/lge/v10-common/proprietary/lib/libqti-at.so:system/lib/libqti-at.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
-    vendor/lge/v10-common/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/v10-common/proprietary/lib/libsregex.so:system/lib/libsregex.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imsqimf.so:system/lib/lib-imsqimf.so \
-    vendor/lge/v10-common/proprietary/lib/libCB.so:system/lib/libCB.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_lc898122_camcorder.so:system/lib/libactuator_lc898122_camcorder.so \
-    vendor/lge/v10-common/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_dw9714.so:system/lib/libactuator_dw9714.so \
-    vendor/lge/v10-common/proprietary/lib/lib-rtpsl.so:system/lib/lib-rtpsl.so \
-    vendor/lge/v10-common/proprietary/lib/libmmhttpstack.so:system/lib/libmmhttpstack.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_dw9761b.so:system/lib/libactuator_dw9761b.so \
-    vendor/lge/v10-common/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/v10-common/proprietary/lib/libqmi_common_so.so:system/lib/libqmi_common_so.so \
-    vendor/lge/v10-common/proprietary/lib/libscve_mv.so:system/lib/libscve_mv.so \
-    vendor/lge/v10-common/proprietary/lib/libmm-hdcpmgr.so:system/lib/libmm-hdcpmgr.so \
-    vendor/lge/v10-common/proprietary/lib/libStDrvInt.so:system/lib/libStDrvInt.so \
-    vendor/lge/v10-common/proprietary/lib/libwfdrtsp.so:system/lib/libwfdrtsp.so \
-    vendor/lge/v10-common/proprietary/lib/libqmi_csi.so:system/lib/libqmi_csi.so \
     vendor/lge/v10-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/lge/v10-common/proprietary/lib/libsmemlog.so:system/lib/libsmemlog.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_cpp_snapshot.so:system/lib/libchromatix_ov5670w_cpp_snapshot.so \
-    vendor/lge/v10-common/proprietary/lib/libsecureui.so:system/lib/libsecureui.so \
-    vendor/lge/v10-common/proprietary/lib/libomx-dts.so:system/lib/libomx-dts.so \
     vendor/lge/v10-common/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_default_video.so:system/lib/libchromatix_ov5670w_default_video.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_default_video.so:system/lib/libchromatix_ov5670_default_video.so \
-    vendor/lge/v10-common/proprietary/lib/libmmipstreamnetwork.so:system/lib/libmmipstreamnetwork.so \
-    vendor/lge/v10-common/proprietary/lib/libwbc_jni.so:system/lib/libwbc_jni.so \
-    vendor/lge/v10-common/proprietary/lib/libSSEPKCS11.so:system/lib/libSSEPKCS11.so \
-    vendor/lge/v10-common/proprietary/lib/libtar.so:system/lib/libtar.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_common.so:system/lib/libchromatix_imx234_common.so \
-    vendor/lge/v10-common/proprietary/lib/libalarmservice_jni.so:system/lib/libalarmservice_jni.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_common.so:system/lib/libchromatix_imx208_common.so \
-    vendor/lge/v10-common/proprietary/lib/libmsapm_jni.so:system/lib/libmsapm_jni.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imsxml.so:system/lib/lib-imsxml.so \
-    vendor/lge/v10-common/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/lge/v10-common/proprietary/lib/liblowi_client.so:system/lib/liblowi_client.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
-    vendor/lge/v10-common/proprietary/lib/libadiertac.so:system/lib/libadiertac.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_video_hdr.so:system/lib/libchromatix_imx234_cpp_video_hdr.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_cpp_snapshot.so:system/lib/libchromatix_ov5670_cpp_snapshot.so \
-    vendor/lge/v10-common/proprietary/lib/libsd_sdk_display.so:system/lib/libsd_sdk_display.so \
-    vendor/lge/v10-common/proprietary/lib/libqti-perfd-client.so:system/lib/libqti-perfd-client.so \
-    vendor/lge/v10-common/proprietary/lib/libsecureui_svcsock.so:system/lib/libsecureui_svcsock.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_snapshot.so:system/lib/libchromatix_imx208_snapshot.so \
-    vendor/lge/v10-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_dw9716_camera.so:system/lib/libactuator_dw9716_camera.so \
-    vendor/lge/v10-common/proprietary/lib/libsensor_thresh.so:system/lib/libsensor_thresh.so \
-    vendor/lge/v10-common/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_common_video.so:system/lib/libchromatix_ov5670w_common_video.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_snapshot.so:system/lib/libchromatix_ov5670_snapshot.so \
-    vendor/lge/v10-common/proprietary/lib/libGPTEE.so:system/lib/libGPTEE.so \
-    vendor/lge/v10-common/proprietary/lib/libcneconn.so:system/lib/libcneconn.so \
-    vendor/lge/v10-common/proprietary/lib/libssd.so:system/lib/libssd.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_imx234.so:system/lib/libmmcamera_imx234.so \
-    vendor/lge/v10-common/proprietary/lib/librs_adreno.so:system/lib/librs_adreno.so \
-    vendor/lge/v10-common/proprietary/lib/libSecureUILib.so:system/lib/libSecureUILib.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_bcc44.so:system/lib/libmmcamera_isp_bcc44.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_abf44.so:system/lib/libmmcamera_isp_abf44.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_gamma44.so:system/lib/libmmcamera_isp_gamma44.so \
-    vendor/lge/v10-common/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_snapshot.so:system/lib/libchromatix_imx234_snapshot.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_dw9716_camcorder.so:system/lib/libactuator_dw9716_camcorder.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_scaler_encoder44.so:system/lib/libmmcamera_isp_scaler_encoder44.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_snapshot_hdr.so:system/lib/libchromatix_imx234_cpp_snapshot_hdr.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_cpp_video.so:system/lib/libchromatix_imx208_cpp_video.so \
-    vendor/lge/v10-common/proprietary/lib/libOmxAmrwbplusDec.so:system/lib/libOmxAmrwbplusDec.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_video.so:system/lib/libchromatix_imx234_cpp_video.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_lc898122.so:system/lib/libactuator_lc898122.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_cpp_snapshot_binning.so:system/lib/libchromatix_ov5670w_cpp_snapshot_binning.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_stats_modules.so:system/lib/libmmcamera2_stats_modules.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_q3a_core.so:system/lib/libmmcamera2_q3a_core.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_ov5670_eeprom.so:system/lib/libmmcamera_ov5670_eeprom.so \
-    vendor/lge/v10-common/proprietary/lib/libmmipstreamaal.so:system/lib/libmmipstreamaal.so \
-    vendor/lge/v10-common/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_liveshot.so:system/lib/libchromatix_imx234_liveshot.so \
-    vendor/lge/v10-common/proprietary/lib/libwfdcommonutils.so:system/lib/libwfdcommonutils.so \
     vendor/lge/v10-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_dw9714_camera.so:system/lib/libactuator_dw9714_camera.so \
-    vendor/lge/v10-common/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_vt.so:system/lib/libchromatix_ov5670_vt.so \
-    vendor/lge/v10-common/proprietary/lib/libbccQTI.so:system/lib/libbccQTI.so \
-    vendor/lge/v10-common/proprietary/lib/libmmwfdinterface.so:system/lib/libmmwfdinterface.so \
-    vendor/lge/v10-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_ov8825.so:system/lib/libactuator_ov8825.so \
-    vendor/lge/v10-common/proprietary/lib/libmmwfdsrcinterface.so:system/lib/libmmwfdsrcinterface.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_bf_scale_stats44.so:system/lib/libmmcamera_isp_bf_scale_stats44.so \
-    vendor/lge/v10-common/proprietary/lib/libsurround_3mic_proc.so:system/lib/libsurround_3mic_proc.so \
-    vendor/lge/v10-common/proprietary/lib/libwfdsm.so:system/lib/libwfdsm.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_cpp_snapshot.so:system/lib/libchromatix_imx208_cpp_snapshot.so \
-    vendor/lge/v10-common/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_ihist_stats44.so:system/lib/libmmcamera_isp_ihist_stats44.so \
-    vendor/lge/v10-common/proprietary/lib/libmm-als.so:system/lib/libmm-als.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_tintless_algo.so:system/lib/libmmcamera_tintless_algo.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_postproc.so:system/lib/libchromatix_imx208_postproc.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_mms_video.so:system/lib/libchromatix_imx208_mms_video.so \
-    vendor/lge/v10-common/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/lge/v10-common/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/lge/v10-common/proprietary/lib/libvendorconn.so:system/lib/libvendorconn.so \
-    vendor/lge/v10-common/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
-    vendor/lge/v10-common/proprietary/lib/libmmQSM.so:system/lib/libmmQSM.so \
-    vendor/lge/v10-common/proprietary/lib/libqomx_jpegenc.so:system/lib/libqomx_jpegenc.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_liveshot.so:system/lib/libchromatix_imx234_cpp_liveshot.so \
-    vendor/lge/v10-common/proprietary/lib/libflash_pmic.so:system/lib/libflash_pmic.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_clamp_encoder40.so:system/lib/libmmcamera_isp_clamp_encoder40.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_aec_lg.so:system/lib/libmmcamera2_aec_lg.so \
     vendor/lge/v10-common/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_default_video.so:system/lib/libchromatix_imx234_default_video.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_wnr_module.so:system/lib/libmmcamera2_wnr_module.so \
-    vendor/lge/v10-common/proprietary/lib/libwfdnative.so:system/lib/libwfdnative.so \
-    vendor/lge/v10-common/proprietary/lib/libjpegdhw.so:system/lib/libjpegdhw.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_t4ka3.so:system/lib/libmmcamera_t4ka3.so \
-    vendor/lge/v10-common/proprietary/lib/libqomx_jpegdec.so:system/lib/libqomx_jpegdec.so \
-    vendor/lge/v10-common/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_sensor_debug.so:system/lib/libmmcamera2_sensor_debug.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_chroma_suppress40.so:system/lib/libmmcamera_isp_chroma_suppress40.so \
-    vendor/lge/v10-common/proprietary/lib/libsensor_lge_cal.so:system/lib/libsensor_lge_cal.so \
-    vendor/lge/v10-common/proprietary/lib/libTimeService.so:system/lib/libTimeService.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_lc898212xd_camera.so:system/lib/libactuator_lc898212xd_camera.so \
-    vendor/lge/v10-common/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
-    vendor/lge/v10-common/proprietary/lib/lib-rtpcore.so:system/lib/lib-rtpcore.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_imglib_modules.so:system/lib/libmmcamera2_imglib_modules.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_demosaic44.so:system/lib/libmmcamera_isp_demosaic44.so \
-    vendor/lge/v10-common/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imsrcs.so:system/lib/lib-imsrcs.so \
-    vendor/lge/v10-common/proprietary/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
-    vendor/lge/v10-common/proprietary/lib/libQBLAS-0.11.38.so:system/lib/libQBLAS-0.11.38.so \
-    vendor/lge/v10-common/proprietary/lib/libmm-qdcm.so:system/lib/libmm-qdcm.so \
-    vendor/lge/v10-common/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
     vendor/lge/v10-common/proprietary/lib/hw/camera.msm8992.so:system/lib/hw/camera.msm8992.so \
     vendor/lge/v10-common/proprietary/lib/hw/consumerir.msm8992.so:system/lib/hw/consumerir.msm8992.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_default_video.so:system/lib/libchromatix_imx208_default_video.so \
-    vendor/lge/v10-common/proprietary/lib/libExtendedExtractor.so:system/lib/libExtendedExtractor.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imsrcscmclient.so:system/lib/lib-imsrcscmclient.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_tintless_bg_pca_algo.so:system/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/lge/v10-common/proprietary/lib/lib-dplmedia.so:system/lib/lib-dplmedia.so \
-    vendor/lge/v10-common/proprietary/lib/lib-rtpcommon.so:system/lib/lib-rtpcommon.so \
     vendor/lge/v10-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_awb_lg.so:system/lib/libmmcamera2_awb_lg.so \
-    vendor/lge/v10-common/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_lc898122_claf_camera.so:system/lib/libactuator_lc898122_claf_camera.so \
-    vendor/lge/v10-common/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_postproc.so:system/lib/libchromatix_ov5670_postproc.so \
-    vendor/lge/v10-common/proprietary/lib/libxtadapter.so:system/lib/libxtadapter.so \
-    vendor/lge/v10-common/proprietary/lib/libFlacSwDec.so:system/lib/libFlacSwDec.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_hfr_60.so:system/lib/libchromatix_imx234_hfr_60.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_rs_stats44.so:system/lib/libmmcamera_isp_rs_stats44.so \
-    vendor/lge/v10-common/proprietary/lib/libmasc.so:system/lib/libmasc.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_t4ka3_eeprom.so:system/lib/libmmcamera_t4ka3_eeprom.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_hfr_60.so:system/lib/libchromatix_imx234_cpp_hfr_60.so \
-    vendor/lge/v10-common/proprietary/lib/libllvm-qcom.so:system/lib/libllvm-qcom.so \
-    vendor/lge/v10-common/proprietary/lib/libwfdmmutils.so:system/lib/libwfdmmutils.so \
-    vendor/lge/v10-common/proprietary/lib/libwfdmmsink.so:system/lib/libwfdmmsink.so \
-    vendor/lge/v10-common/proprietary/lib/libqmiservices_ext.so:system/lib/libqmiservices_ext.so \
-    vendor/lge/v10-common/proprietary/lib/libasn1crt.so:system/lib/libasn1crt.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_ov8825_camcorder.so:system/lib/libactuator_ov8825_camcorder.so \
-    vendor/lge/v10-common/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
-    vendor/lge/v10-common/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-    vendor/lge/v10-common/proprietary/lib/libsystem_health_mon.so:system/lib/libsystem_health_mon.so \
-    vendor/lge/v10-common/proprietary/lib/libextendedmediaextractor_jni.so:system/lib/libextendedmediaextractor_jni.so \
-    vendor/lge/v10-common/proprietary/lib/libperipheral_client.so:system/lib/libperipheral_client.so \
-    vendor/lge/v10-common/proprietary/lib/libmmipstreamutils.so:system/lib/libmmipstreamutils.so \
-    vendor/lge/v10-common/proprietary/lib/libsi.so:system/lib/libsi.so \
-    vendor/lge/v10-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_fovcrop_viewfinder40.so:system/lib/libmmcamera_isp_fovcrop_viewfinder40.so \
-    vendor/lge/v10-common/proprietary/lib/libscve.so:system/lib/libscve.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_linearization40.so:system/lib/libmmcamera_isp_linearization40.so \
-    vendor/lge/v10-common/proprietary/lib/libmare-cpu-1.0.0.so:system/lib/libmare-cpu-1.0.0.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imsSDP.so:system/lib/lib-imsSDP.so \
-    vendor/lge/v10-common/proprietary/lib/libsrsprocessing.so:system/lib/libsrsprocessing.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_c2d_module.so:system/lib/libmmcamera2_c2d_module.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_cpp_liveshot.so:system/lib/libchromatix_ov5670w_cpp_liveshot.so \
-    vendor/lge/v10-common/proprietary/lib/libtzdrmgenprov.so:system/lib/libtzdrmgenprov.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_hfr_120.so:system/lib/libchromatix_imx234_cpp_hfr_120.so \
-    vendor/lge/v10-common/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/v10-common/proprietary/lib/libpvr.so:system/lib/libpvr.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_dw9716.so:system/lib/libactuator_dw9716.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_common_video.so:system/lib/libchromatix_imx208_common_video.so \
-    vendor/lge/v10-common/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
-    vendor/lge/v10-common/proprietary/lib/lib-rtpdaemoninterface.so:system/lib/lib-rtpdaemoninterface.so \
-    vendor/lge/v10-common/proprietary/lib/libFileMux.so:system/lib/libFileMux.so \
-    vendor/lge/v10-common/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-    vendor/lge/v10-common/proprietary/lib/liblistensoundmodel2.so:system/lib/liblistensoundmodel2.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_ltm44.so:system/lib/libmmcamera_isp_ltm44.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_wb40.so:system/lib/libmmcamera_isp_wb40.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_rohm_bu64243gwz.so:system/lib/libactuator_rohm_bu64243gwz.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_isp_modules.so:system/lib/libmmcamera2_isp_modules.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_liveshot.so:system/lib/libchromatix_imx208_liveshot.so \
-    vendor/lge/v10-common/proprietary/lib/libmmwfdsinkinterface.so:system/lib/libmmwfdsinkinterface.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_lc898122_claf.so:system/lib/libactuator_lc898122_claf.so \
-    vendor/lge/v10-common/proprietary/lib/libqmi_client_helper.so:system/lib/libqmi_client_helper.so \
-    vendor/lge/v10-common/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
-    vendor/lge/v10-common/proprietary/lib/libscve_stub.so:system/lib/libscve_stub.so \
-    vendor/lge/v10-common/proprietary/lib/libconfigdb.so:system/lib/libconfigdb.so \
-    vendor/lge/v10-common/proprietary/lib/libscale.so:system/lib/libscale.so \
-    vendor/lge/v10-common/proprietary/lib/liblocationservice.so:system/lib/liblocationservice.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_pproc_modules.so:system/lib/libmmcamera2_pproc_modules.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_chromaflash_lib.so:system/lib/libmmcamera_chromaflash_lib.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_video_hdr.so:system/lib/libchromatix_imx234_video_hdr.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_ov5670w_eeprom.so:system/lib/libmmcamera_ov5670w_eeprom.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_ppbase_module.so:system/lib/libmmcamera_ppbase_module.so \
-    vendor/lge/v10-common/proprietary/lib/libwfduibcsink.so:system/lib/libwfduibcsink.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_vpu_module.so:system/lib/libmmcamera_vpu_module.so \
-    vendor/lge/v10-common/proprietary/lib/libvoice-svc.so:system/lib/libvoice-svc.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_lc898122_camera.so:system/lib/libactuator_lc898122_camera.so \
-    vendor/lge/v10-common/proprietary/lib/libacdb-fts.so:system/lib/libacdb-fts.so \
-    vendor/lge/v10-common/proprietary/lib/libqomx_jpegenc_pipe.so:system/lib/libqomx_jpegenc_pipe.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_liveshot.so:system/lib/libchromatix_ov5670_liveshot.so \
-    vendor/lge/v10-common/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
-    vendor/lge/v10-common/proprietary/lib/libwfdhdcpcp.so:system/lib/libwfdhdcpcp.so \
-    vendor/lge/v10-common/proprietary/lib/libmm-disp-apis.so:system/lib/libmm-disp-apis.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_dw9761b_camcorder.so:system/lib/libactuator_dw9761b_camcorder.so \
-    vendor/lge/v10-common/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
-    vendor/lge/v10-common/proprietary/lib/libSHIMDivxDrm.so:system/lib/libSHIMDivxDrm.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_hdr_gb_lib.so:system/lib/libmmcamera_hdr_gb_lib.so \
-    vendor/lge/v10-common/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_color_xform_viewfinder40.so:system/lib/libmmcamera_isp_color_xform_viewfinder40.so \
-    vendor/lge/v10-common/proprietary/lib/libasn1crtx.so:system/lib/libasn1crtx.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_iface_modules.so:system/lib/libmmcamera2_iface_modules.so \
-    vendor/lge/v10-common/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/lge/v10-common/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
-    vendor/lge/v10-common/proprietary/lib/librmp.so:system/lib/librmp.so \
-    vendor/lge/v10-common/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-    vendor/lge/v10-common/proprietary/lib/libsecureuisvc_jni.so:system/lib/libsecureuisvc_jni.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imsrcscm.so:system/lib/lib-imsrcscm.so \
-    vendor/lge/v10-common/proprietary/lib/lib-rcsjni.so:system/lib/lib-rcsjni.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_ad5823.so:system/lib/libactuator_ad5823.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_video_dual.so:system/lib/libchromatix_imx234_video_dual.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_sensor_modules.so:system/lib/libmmcamera2_sensor_modules.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_mesh_rolloff44.so:system/lib/libmmcamera_isp_mesh_rolloff44.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imsrcscmservice.so:system/lib/lib-imsrcscmservice.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_bf_stats44.so:system/lib/libmmcamera_isp_bf_stats44.so \
-    vendor/lge/v10-common/proprietary/lib/libwfduibcinterface.so:system/lib/libwfduibcinterface.so \
-    vendor/lge/v10-common/proprietary/lib/libwfdservice.so:system/lib/libwfdservice.so \
-    vendor/lge/v10-common/proprietary/lib/libwqe.so:system/lib/libwqe.so \
-    vendor/lge/v10-common/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_cpp_liveshot.so:system/lib/libchromatix_imx208_cpp_liveshot.so \
-    vendor/lge/v10-common/proprietary/lib/lib-ims-rcscmjni.so:system/lib/lib-ims-rcscmjni.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_vt.so:system/lib/libchromatix_imx208_vt.so \
-    vendor/lge/v10-common/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_cpp_liveshot.so:system/lib/libchromatix_ov5670_cpp_liveshot.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_bhist_stats44.so:system/lib/libmmcamera_isp_bhist_stats44.so \
-    vendor/lge/v10-common/proprietary/lib/libc2d30-a3xx.so:system/lib/libc2d30-a3xx.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_is.so:system/lib/libmmcamera2_is.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_frame_algorithm.so:system/lib/libmmcamera2_frame_algorithm.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_postproc.so:system/lib/libchromatix_imx234_postproc.so \
-    vendor/lge/v10-common/proprietary/lib/libRSDriver_adreno.so:system/lib/libRSDriver_adreno.so \
-    vendor/lge/v10-common/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_postproc.so:system/lib/libchromatix_ov5670w_postproc.so \
-    vendor/lge/v10-common/proprietary/lib/libois_lc898122.so:system/lib/libois_lc898122.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_imx208.so:system/lib/libmmcamera_imx208.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_lc898212xd_camcorder.so:system/lib/libactuator_lc898212xd_camcorder.so \
     vendor/lge/v10-common/proprietary/lib/libcir_driver.so:system/lib/libcir_driver.so \
-    vendor/lge/v10-common/proprietary/lib/lib-sec-disp.so:system/lib/lib-sec-disp.so \
-    vendor/lge/v10-common/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
-    vendor/lge/v10-common/proprietary/lib/libdisp-aba.so:system/lib/libdisp-aba.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_clamp_viewfinder40.so:system/lib/libmmcamera_isp_clamp_viewfinder40.so \
-    vendor/lge/v10-common/proprietary/lib/libdpmnsrm.so:system/lib/libdpmnsrm.so \
-    vendor/lge/v10-common/proprietary/lib/libacdbmapper.so:system/lib/libacdbmapper.so \
-    vendor/lge/v10-common/proprietary/lib/libulp2.so:system/lib/libulp2.so \
-    vendor/lge/v10-common/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_snapshot_binning.so:system/lib/libchromatix_ov5670_snapshot_binning.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_common_video.so:system/lib/libchromatix_ov5670_common_video.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_ov5670.so:system/lib/libmmcamera_ov5670.so \
-    vendor/lge/v10-common/proprietary/lib/libqdi.so:system/lib/libqdi.so \
-    vendor/lge/v10-common/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_eztune_module.so:system/lib/libmmcamera_eztune_module.so \
-    vendor/lge/v10-common/proprietary/lib/libadreno_utils.so:system/lib/libadreno_utils.so \
-    vendor/lge/v10-common/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_be_stats44.so:system/lib/libmmcamera_isp_be_stats44.so \
-    vendor/lge/v10-common/proprietary/lib/libmmipstreamsourcehttp.so:system/lib/libmmipstreamsourcehttp.so \
-    vendor/lge/v10-common/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_imglib.so:system/lib/libmmcamera_imglib.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_demux40.so:system/lib/libmmcamera_isp_demux40.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx208_preview.so:system/lib/libchromatix_imx208_preview.so \
-    vendor/lge/v10-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/lge/v10-common/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/lge/v10-common/proprietary/lib/libwfdmmsrc.so:system/lib/libwfdmmsrc.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_preview.so:system/lib/libchromatix_imx234_cpp_preview.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_chroma_enhan40.so:system/lib/libmmcamera_isp_chroma_enhan40.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_vpe_module.so:system/lib/libmmcamera2_vpe_module.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_luma_adaptation40.so:system/lib/libmmcamera_isp_luma_adaptation40.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_dw9714_camcorder.so:system/lib/libactuator_dw9714_camcorder.so \
-    vendor/lge/v10-common/proprietary/lib/libdpmctmgr.so:system/lib/libdpmctmgr.so \
-    vendor/lge/v10-common/proprietary/lib/libqmi.so:system/lib/libqmi.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_bg_stats44.so:system/lib/libmmcamera_isp_bg_stats44.so \
-    vendor/lge/v10-common/proprietary/lib/libasn1cper.so:system/lib/libasn1cper.so \
     vendor/lge/v10-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/lge/v10-common/proprietary/lib/librs_adreno_sha1.so:system/lib/librs_adreno_sha1.so \
-    vendor/lge/v10-common/proprietary/lib/liblbs_core.so:system/lib/liblbs_core.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_common.so:system/lib/libchromatix_ov5670w_common.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_snapshot_binning.so:system/lib/libchromatix_ov5670w_snapshot_binning.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
-    vendor/lge/v10-common/proprietary/lib/libthermalclient.so:system/lib/libthermalclient.so \
-    vendor/lge/v10-common/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
-    vendor/lge/v10-common/proprietary/lib/libqmi_cci.so:system/lib/libqmi_cci.so \
-    vendor/lge/v10-common/proprietary/lib/libSubSystemShutdown.so:system/lib/libSubSystemShutdown.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_cpp_video.so:system/lib/libchromatix_ov5670w_cpp_video.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_clamp_video40.so:system/lib/libmmcamera_isp_clamp_video40.so \
-    vendor/lge/v10-common/proprietary/lib/libc2d30-a4xx.so:system/lib/libc2d30-a4xx.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_sce40.so:system/lib/libmmcamera_isp_sce40.so \
-    vendor/lge/v10-common/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
-    vendor/lge/v10-common/proprietary/lib/libjpegdmahw.so:system/lib/libjpegdmahw.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670_cpp_preview.so:system/lib/libchromatix_ov5670_cpp_preview.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_cpp_panorama.so:system/lib/libchromatix_imx234_cpp_panorama.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_ov5670w_cpp_preview.so:system/lib/libchromatix_ov5670w_cpp_preview.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_color_xform_encoder40.so:system/lib/libmmcamera_isp_color_xform_encoder40.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_ov5670w.so:system/lib/libmmcamera_ov5670w.so \
-    vendor/lge/v10-common/proprietary/lib/lib-imsdpl.so:system/lib/lib-imsdpl.so \
-    vendor/lge/v10-common/proprietary/lib/libchromaflash.so:system/lib/libchromaflash.so \
-    vendor/lge/v10-common/proprietary/lib/libchromatix_imx234_hfr_120.so:system/lib/libchromatix_imx234_hfr_120.so \
-    vendor/lge/v10-common/proprietary/lib/libactuator_ad5823_camcorder.so:system/lib/libactuator_ad5823_camcorder.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_scaler_viewfinder44.so:system/lib/libmmcamera_isp_scaler_viewfinder44.so \
-    vendor/lge/v10-common/proprietary/lib/libmare-1.0.0.so:system/lib/libmare-1.0.0.so \
-    vendor/lge/v10-common/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
-    vendor/lge/v10-common/proprietary/lib/libacdbrtac.so:system/lib/libacdbrtac.so \
-    vendor/lge/v10-common/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera_isp_fovcrop_encoder40.so:system/lib/libmmcamera_isp_fovcrop_encoder40.so \
-    vendor/lge/v10-common/proprietary/lib/libmdsprpc.so:system/lib/libmdsprpc.so \
-    vendor/lge/v10-common/proprietary/lib/libqct_resampler.so:system/lib/libqct_resampler.so \
-    vendor/lge/v10-common/proprietary/lib/libmmcamera2_pp_buf_mgr.so:system/lib/libmmcamera2_pp_buf_mgr.so \
-    vendor/lge/v10-common/proprietary/lib/libqti-gt.so:system/lib/libqti-gt.so \
-    vendor/lge/v10-common/proprietary/lib/libsubsystem_control.so:system/lib/libsubsystem_control.so \
-    vendor/lge/v10-common/proprietary/lib/libidl.so:system/lib/libidl.so \
-    vendor/lge/v10-common/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
     vendor/lge/v10-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/lge/v10-common/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/lge/v10-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
@@ -483,7 +104,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_rbp_data5100_patch500_5x5_24x24_dim727.trn31585.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_rbp_data5100_patch500_5x5_24x24_dim727.trn31585.trn \
     vendor/lge/v10-common/proprietary/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn:system/vendor/etc/scve/textreco/chardecoder/_conf_eng_num_sym_font40_conc2_meshrn__de__1_1__zscore_morph.trn10158.trn \
     vendor/lge/v10-common/proprietary/vendor/etc/scve/textreco/chardecoder/_eng_font40_4transmeshrnorm6x6_leaflda85_ligature_ext14_c70_sp1lI_newxml3.trn31299.trn:system/vendor/etc/scve/textreco/chardecoder/_eng_font40_4transmeshrnorm6x6_leaflda85_ligature_ext14_c70_sp1lI_newxml3.trn31299.trn \
-    vendor/lge/v10-common/proprietary/vendor/etc/scve/textreco/worddecoder:system/vendor/etc/scve/textreco/worddecoder \
     vendor/lge/v10-common/proprietary/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin:system/vendor/etc/scve/textreco/worddecoder/textreco_url_10000_2.bin \
     vendor/lge/v10-common/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -610,6 +230,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libchromatix_imx234_cpp_video.so:system/vendor/lib/libchromatix_imx234_cpp_video.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libactuator_lc898122.so:system/vendor/lib/libactuator_lc898122.so \
+    vendor/lge/v10-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libmmcamera2_stats_modules.so:system/vendor/lib/libmmcamera2_stats_modules.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libmmcamera2_q3a_core.so:system/vendor/lib/libmmcamera2_q3a_core.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libmmipstreamaal.so:system/vendor/lib/libmmipstreamaal.so \
@@ -717,6 +338,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/vendor/lib/libmmcamera_isp_ltm44.so:system/vendor/lib/libmmcamera_isp_ltm44.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libmmcamera_isp_wb40.so:system/vendor/lib/libmmcamera_isp_wb40.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:system/vendor/lib/libactuator_rohm_bu64243gwz.so \
+    vendor/lge/v10-common/proprietary/vendor/lib/mediadrm:system/vendor/lib/mediadrm \
     vendor/lge/v10-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/lge/v10-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libmmcamera2_isp_modules.so:system/vendor/lib/libmmcamera2_isp_modules.so \
@@ -739,6 +361,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/vendor/lib/libactuator_lc898122_camera.so:system/vendor/lib/libactuator_lc898122_camera.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/lge/v10-common/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:system/vendor/lib/libqomx_jpegenc_pipe.so \
+    vendor/lge/v10-common/proprietary/vendor/lib/soundfx:system/vendor/lib/soundfx \
     vendor/lge/v10-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/lge/v10-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/lge/v10-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
@@ -981,6 +604,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/v10-common/proprietary/vendor/lib64/libFileMux.so:system/vendor/lib64/libFileMux.so \
     vendor/lge/v10-common/proprietary/vendor/lib64/libaudioalsa.so:system/vendor/lib64/libaudioalsa.so \
     vendor/lge/v10-common/proprietary/vendor/lib64/liblistensoundmodel2.so:system/vendor/lib64/liblistensoundmodel2.so \
+    vendor/lge/v10-common/proprietary/vendor/lib64/mediadrm:system/vendor/lib64/mediadrm \
     vendor/lge/v10-common/proprietary/vendor/lib64/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib64/mediadrm/libdrmclearkeyplugin.so \
     vendor/lge/v10-common/proprietary/vendor/lib64/libmmwfdsinkinterface.so:system/vendor/lib64/libmmwfdsinkinterface.so \
     vendor/lge/v10-common/proprietary/vendor/lib64/libqmi_client_helper.so:system/vendor/lib64/libqmi_client_helper.so \
